@@ -1,3 +1,3 @@
 # kamilapereira.github.io
 
-Science in Computing Student
+# Science in Computing Student
