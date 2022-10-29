@@ -18,22 +18,28 @@ input, button, textarea, select { font: inherit }
 
 body { 
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Oswald', sans-serif;
+    background-color: #aed6f1;
+}
+
+h2, h3 {
+    color:  #154360 ; letter-spacing: -2px;
 }
 
 h1 {
     font-size: 78px;
     font-weight: normal;
     letter-spacing: -2px;
-    margin-bottom: 12px;
+    margin-bottom: 45px;
     line-height: 1.2;
+    color:  #1c2833;
 }
 
 h2 {
     font-size: 42px;
     letter-spacing: 6px;
     margin-bottom: 48px;
-    line-height: 1.2;
+    line-height: 0.5;
 }
 
 h3 {
@@ -44,16 +50,15 @@ h3 {
     text-transform: uppercase;
 }
 
+
 p {
     font-size: 20px;
     margin-bottom: 16px;
 }
 
 img {
-    margin-bottom: 42px;
-    max-width: 40%;
-    max-height: 40%;
+    margin: 15px auto;
+    max-width: 35%;
+    max-height: 35%;
     display: block;
-    margin: 0px auto;
 }
-
