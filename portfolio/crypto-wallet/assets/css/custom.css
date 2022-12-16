@@ -3,7 +3,7 @@
 body { font-family: 'Outfit', sans-serif; }
 
 .section-selector-1 { background-color: var(--trend-700) }
-.section-selector-1 .badge { background-color: var(--trend-700) }
+.section-selector-1 .badge { background-color: var(--trend-700); letter-spacing: 10px; font-size: 20px; }
 .section-selector-1 .badge { color: var(--white-000) }
 
 .section-selector-2 { background-color: var(--trend-900) }
@@ -12,3 +12,35 @@ body { font-family: 'Outfit', sans-serif; }
 
 .section-selector-1 { background-color: var(--trend-700) }
 .section-selector-1 div[class^='flex-cols-'] div[class^='col-'] figure.icon { color: var(--blue-300) }
+
+.container-text h1 { font-weight: 500;}
+.container-text h2 { font-size: 45px;}
+
+/* -- back to top button -- */
+
+.back-to-top-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color:#000224;
+    border-radius: 70%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+  }
+  
+  .back-to-top-btn a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .back-to-top-btn:hover { background-color: #555;}
+  
+  #top { position: absolute }
+  
+  .back-to-portfolio { background-color: var(--blue-300) ; padding: 20px;}
