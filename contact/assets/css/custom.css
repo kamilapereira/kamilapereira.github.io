@@ -46,6 +46,13 @@ nav.theme-dark,
 nav.theme-dark ul.links-wrapper.active { background-color: var(--red-600) }
 nav.theme-dark,
 nav.theme-dark ul.links-wrapper.active { background-color: #280137 }
+nav.theme-dark .nav-toggle .bar-1,
+nav.theme-dark .nav-toggle .bar-2,
+nav.theme-dark .nav-toggle .bar-3 { background-color: var(--purple-400) }
+nav.theme-dark .nav-toggle .bar-1,
+nav.theme-dark .nav-toggle .bar-2,
+nav.theme-dark .nav-toggle .bar-3 { background-color: var(--purple-400) }
+nav.theme-dark .nav-toggle { background-color: var(--purple-900) }
 
 .logo { width: 85px}
 
@@ -68,8 +75,10 @@ textarea[name='message'] {
 
 .image-email { height: 390px;}
 
-
-video {
-    max-width: 100%;
-    height: auto;
-  }
+@media (max-width: 768px) {
+    .slide-in-left-desktop, .slide-in-right-desktop{ 
+        display:block; 
+        animation:none;
+        opacity:1;
+    }  
+}
