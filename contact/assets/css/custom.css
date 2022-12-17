@@ -76,7 +76,7 @@ textarea[name='message'] {
 .image-email { height: 390px;}
 
 @media (max-width: 768px) {
-    .slide-in-left-desktop, .slide-in-right-desktop{ 
+    .slide-in-left-desktop, .slide-in-right-desktop, .flex-cols-2{ 
         display:block; 
         animation:none;
         opacity:1;

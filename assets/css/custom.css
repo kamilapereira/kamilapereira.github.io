@@ -126,7 +126,7 @@ header.theme-light .container-btn a.btn:nth-child(1):visited { color: #280137 }
 .contact-image { height: 390px;}
 
 @media (max-width: 768px) {
-    .slide-in-left-desktop, .slide-in-right-desktop{ 
+    .slide-in-left-desktop, .slide-in-right-desktop, .my-description{ 
         display:block; 
         animation:none;
         opacity:1;
