@@ -4,17 +4,13 @@ body{ font-family: 'Share Tech', sans-serif; }
 
 .container-text { width: 500px; margin-right: 75px;}
 
-header.theme-dark h1 span.highlight { color: var(--purple-900) }
-header.hero-bg > .container-overlay { background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)); } 
-
-
 nav.theme-dark,
 nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
 nav.theme-dark,
 nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
 nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-1,
 nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-2,
-nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-3 { background-color: var(--purple-900) }
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-3 { background-color: #280137 }
 nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-1,
 nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-2,
 nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-3 { background-color: var(--purple-900) }
@@ -50,15 +46,6 @@ nav.theme-dark,
 nav.theme-dark ul.links-wrapper.active { background-color: var(--red-600) }
 nav.theme-dark,
 nav.theme-dark ul.links-wrapper.active { background-color: #280137 }
-nav.theme-dark .nav-toggle .bar-1,
-nav.theme-dark .nav-toggle .bar-2,
-nav.theme-dark .nav-toggle .bar-3 { background-color: var(--purple-400) }
-nav.theme-dark .nav-toggle .bar-1,
-nav.theme-dark .nav-toggle .bar-2,
-nav.theme-dark .nav-toggle .bar-3 { background-color: var(--purple-400) }
-nav.theme-dark .nav-toggle { background-color: var(--purple-900) }
-
-
 
 .logo { width: 85px}
 
