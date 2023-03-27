@@ -62,3 +62,45 @@ img {
     max-height: 35%;
     display: block;
 }
+
+
+/* footer */
+
+.footer {
+    background-color: #400c3e;
+    color: #F0ABFC;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+footer ul {
+    align-items: center;
+}
+
+.footer-info {
+    text-align: center;
+}
+
+.footer-info h4 {
+    margin: 0;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-icons a {
+    margin-right: 10px;
+}
+
+.footer-links {
+    text-align: center;
+}
+
+.footer-links a {
+    margin-left: 10px;
+}
