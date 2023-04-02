@@ -1,40 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+       <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Store</title>
-    <meta name="description" content="Sample web page description goes here.">
+    <title>Kamila Pereira | Store</title>
+    <meta name="description" content="Web developer and illustrator with a passion for creating beautiful websites.">
 
-	<!-- Preload large image -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
-	<!-- Stylesheets -->
+    <!-- Preload large image -->
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="https://lunevedy.com/assets/2.0/css/lunevedy.min.css" />
     <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="assets/css/lunadoge.css" />
+    <link rel="stylesheet" href="assets/css/css-javascript.css" />
 
-	<!-- Google Fonts -->
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
 
     <!-- Font Awesome 6 icons. Delete if not using. -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Line Awesome thin icons. Delete if not using. -->
-    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 
-    <style>
-        header.theme-light {
-            background-color: #C8A2C8;
-        }
-
-        p {
-            font-size: 2px;
-        }
-
-    </style>
 
 </head>
 
 <body>
+
+    <!--------- MENU --------------->
+    <nav class="theme-dark">
+        <div class="container-menu menu-desktop">
+            <a href="../index.html" class="brand">
+                <img class="logo" src="../assets/img/logo-nav.png" alt="Sample website logo">
+            </a>
+
+            <div class="container-menu-links links-bold">
+
+                <div class="nav-toggle">
+                    <div class="bar-1"></div>
+                    <div class="bar-2"></div>
+                    <div class="bar-3"></div>
+                </div>
+
+                <ul class="links-wrapper">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../portfolio/index.html">Portfolio</a></li>
+                    <li><a href="./index.html">Store</a></li>
+                    <li><a class="btn btn-solid btn-shadow btn-pill" id="btn-cta" href="../contact/index.html"><span>Get
+                                in touch <i class="fa-regular fa-envelope"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
     <!-- header starts here -->
 
     <header class="theme-light text-center-mobile">
@@ -61,7 +92,7 @@
 				</figure>
 				<h3>JavaScript – The Definitive Guide</h3>
                 <p>This book is for programmers who want to learn JavaScript and for web developers who want to take their understanding and mastery to the next level. It begins by explaining the JavaScript language itself, in detail, from the bottom up. It then builds on that foundation to cover the web platform and Node.js.</p>
-                <a href="https://www.amazon.co.uk/JavaScript-Definitive-Guide-David-Flanagan/dp/1491952024/ref=sr_1_1?keywords=javascript+definitive+guide&amp;qid=1678705965&amp;sr=8-1&_encoding=UTF8&tag=kamilapereira-21&linkCode=ur2&linkId=b3634e8732c95ab22516f2a16bc5945f&camp=1634&creative=6738" class="btn btn-solid"><span>Buy now</span><i class="fas fa-arrow-right"></i></a>
+                <a href="https://www.amazon.co.uk/JavaScript-Definitive-Guide-David-Flanagan/dp/1491952024/ref=sr_1_1?keywords=javascript+definitive+guide&amp;qid=1678705965&amp;sr=8-1&_encoding=UTF8&tag=kamilapereira-21&linkCode=ur2&linkId=b3634e8732c95ab22516f2a16bc5945f&camp=1634&creative=6738" target="_blank" class="btn btn-solid"><span>Buy now</span><i class="fas fa-arrow-right"></i></a>
 			</div>
 
 			<div class="col-3">
@@ -70,7 +101,7 @@
 				</figure>
 				<h3>Programming TypeScript: Making Your JavaScript Applications Scale</h3>
                 <p>This book demonstrates the capabilities of JavaScript for web application development by combining theoretical learning with code exercises and fun projects that you can challenge yourself with. The guiding principle of the book is to show how straightforward JavaScript techniques can be used to make web apps ranging from dynamic websites to simple browser-based games.</p>
-                <a href="https://www.amazon.co.uk/JavaScript-Beginner-Professional-building-interactive/dp/1800562527/ref=sxin_16_ci_mcx_mi_sr_m_ts?content-id=amzn1.sym.6a0d64d1-8547-4b7e-954b-7d8b5c5a1697%253Aamzn1.sym.6a0d64d1-8547-4b7e-954b-7d8b5c5a1697&amp;cv_ct_cx=javascript+definitive+guide&amp;keywords=javascript+definitive+guide&amp;pd_rd_i=1800562527&amp;pd_rd_r=f90421be-f603-4cb2-a829-99b7a610ff50&amp;pd_rd_w=pFguQ&amp;pd_rd_wg=yTtTQ&amp;pf_rd_p=6a0d64d1-8547-4b7e-954b-7d8b5c5a1697&amp;pf_rd_r=2GKXRZBSY9BKC5EC5REV&amp;qid=1678706724&amp;sbo=RZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D&amp;sr=1-2-d8d8b8a8-006e-4060-801d-7ea508439501&_encoding=UTF8&tag=kamilapereira-21&linkCode=ur2&linkId=9eba6b94fd53fe16e872baca4f7f7494&camp=1634&creative=6738" class="btn btn-solid"><span>Buy now</span><i class="fas fa-arrow-right"></i></a>
+                <a href="https://www.amazon.co.uk/JavaScript-Beginner-Professional-building-interactive/dp/1800562527/ref=sxin_16_ci_mcx_mi_sr_m_ts?content-id=amzn1.sym.6a0d64d1-8547-4b7e-954b-7d8b5c5a1697%253Aamzn1.sym.6a0d64d1-8547-4b7e-954b-7d8b5c5a1697&amp;cv_ct_cx=javascript+definitive+guide&amp;keywords=javascript+definitive+guide&amp;pd_rd_i=1800562527&amp;pd_rd_r=f90421be-f603-4cb2-a829-99b7a610ff50&amp;pd_rd_w=pFguQ&amp;pd_rd_wg=yTtTQ&amp;pf_rd_p=6a0d64d1-8547-4b7e-954b-7d8b5c5a1697&amp;pf_rd_r=2GKXRZBSY9BKC5EC5REV&amp;qid=1678706724&amp;sbo=RZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D&amp;sr=1-2-d8d8b8a8-006e-4060-801d-7ea508439501&_encoding=UTF8&tag=kamilapereira-21&linkCode=ur2&linkId=9eba6b94fd53fe16e872baca4f7f7494&camp=1634&creative=6738" target="_blank" class="btn btn-solid"><span>Buy now</span><i class="fas fa-arrow-right"></i></a>
 			</div>
 
 			<div class="col-3">
@@ -79,7 +110,7 @@
 				</figure>
 				<h3>JavaScript from Beginner to Professional</h3>
                 <p>Any programmer working with a dynamically typed language will tell you how hard it is to scale to more lines of code and more engineers. That’s why Facebook, Google, and Microsoft invented gradual static type layers for their dynamically typed JavaScript and Python code. This practical book shows you how one such type layer, TypeScript, is unique among them: it makes programming fun with its powerful static type system.</p>
-                <a href="https://www.amazon.co.uk/Programming-TypeScript-Making-JavaScript-Applications/dp/1492037656/ref=sxin_16_ci_mcx_mi_sr_m_ts?content-id=amzn1.sym.6a0d64d1-8547-4b7e-954b-7d8b5c5a1697%253Aamzn1.sym.6a0d64d1-8547-4b7e-954b-7d8b5c5a1697&amp;cv_ct_cx=javascript+definitive+guide&amp;keywords=javascript+definitive+guide&amp;pd_rd_i=1492037656&amp;pd_rd_r=f90421be-f603-4cb2-a829-99b7a610ff50&amp;pd_rd_w=pFguQ&amp;pd_rd_wg=yTtTQ&amp;pf_rd_p=6a0d64d1-8547-4b7e-954b-7d8b5c5a1697&amp;pf_rd_r=2GKXRZBSY9BKC5EC5REV&amp;qid=1678706724&amp;sbo=RZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D&amp;sr=1-4-d8d8b8a8-006e-4060-801d-7ea508439501&_encoding=UTF8&tag=kamilapereira-21&linkCode=ur2&linkId=cc6bd44d21f9c98c3573dbbc1f93238b&camp=1634&creative=6738" class="btn btn-solid"><span>Buy now</span><i class="fas fa-arrow-right"></i></a>
+                <a href="https://www.amazon.co.uk/Programming-TypeScript-Making-JavaScript-Applications/dp/1492037656/ref=sxin_16_ci_mcx_mi_sr_m_ts?content-id=amzn1.sym.6a0d64d1-8547-4b7e-954b-7d8b5c5a1697%253Aamzn1.sym.6a0d64d1-8547-4b7e-954b-7d8b5c5a1697&amp;cv_ct_cx=javascript+definitive+guide&amp;keywords=javascript+definitive+guide&amp;pd_rd_i=1492037656&amp;pd_rd_r=f90421be-f603-4cb2-a829-99b7a610ff50&amp;pd_rd_w=pFguQ&amp;pd_rd_wg=yTtTQ&amp;pf_rd_p=6a0d64d1-8547-4b7e-954b-7d8b5c5a1697&amp;pf_rd_r=2GKXRZBSY9BKC5EC5REV&amp;qid=1678706724&amp;sbo=RZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D&amp;sr=1-4-d8d8b8a8-006e-4060-801d-7ea508439501&_encoding=UTF8&tag=kamilapereira-21&linkCode=ur2&linkId=cc6bd44d21f9c98c3573dbbc1f93238b&camp=1634&creative=6738" target="_blank" class="btn btn-solid"><span>Buy now</span><i class="fas fa-arrow-right"></i></a>
 			</div>
 
     </section>
@@ -87,16 +118,72 @@
 	<!-- section ends here -->
 
 
-
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-
     </main>
 
+    <footer>
+		<ul>
+            <h4>Kamila Pereira</h4>
+            <p class="descr">Excellence in digital creation</p>
 
+            <a href="https://github.com/kamilapereira" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/kamilapereira95/" target="_blank"><i class="fab fa-linkedin"></i></a>
+		</ul>
+
+        <p class="index.html"> <a href="../privacy.html" target="_blank">Privacy &amp; Legal</a> </p>
+		<p class="rights">&copy; 2023 Kamila Pereira. All rights reserved.</p>
+
+	</footer>
+
+    <style>
+		
+		footer {
+			background-color: #581C87;
+			padding: 20px;
+			text-align: center;
+            font-size: large;
+		}
+
+        footer h4 {
+            font-size: 2.8rem;
+            color: var(--purple-300);
+        }
+
+        .descr {
+            font-size: 1.2rem;
+            color: var(--purple-300);
+        }
+
+        .index.html {
+            font-size: 0.5rem;
+            color: var(--purple-300);
+        }
+		
+        .rights {
+            font-size: 0.8rem;
+            margin-top: 10px;
+        }
+
+		footer ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+            margin-top: 50px;
+            margin-bottom: 40px;
+		}
+		
+        footer i {
+            color: var(--purple-300);
+            font-size: 2.5rem;
+            margin: 0 10px;
+            margin-top: 35px;
+        }
+		
+		footer a {
+			color: var(--purple-400);
+			text-decoration: none;
+		}
+
+	</style>
 
     <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
 

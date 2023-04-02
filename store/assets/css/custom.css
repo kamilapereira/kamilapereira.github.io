@@ -1,0 +1,105 @@
+/* Add your custom CSS here */
+
+body{ font-family: 'Share Tech', sans-serif; }
+
+.container-text { width: 750px; margin-top: 35px; margin-bottom: 35px;}
+.my-description { margin-top: 55px; }
+
+header.theme-dark h1 span.highlight { color: var(--purple-900) }
+header.hero-bg > .container-overlay { background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)); } 
+
+
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-1,
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-2,
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-3 { background-color: var(--purple-900) }
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-1,
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-2,
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-3 { background-color: var(--purple-900) }
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-1,
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-2,
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-3 { background-color: var(--purple-900) }
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle { background-color: #280137 }
+nav.theme-dark ul.links-wrapper li a:focus,
+nav.theme-dark ul.links-wrapper li a:hover,
+nav.theme-dark ul.links-wrapper li a:active { color: var(--purple-900) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--purple-900) }
+nav.theme-dark ul.links-wrapper li a:link,
+nav.theme-dark ul.links-wrapper li a:visited { color: var(--purple-500) }
+nav.theme-dark a#btn-cta:link,
+nav.theme-dark a#btn-cta:visited { background-color: var(--purple-500) }
+nav.theme-dark a#btn-cta:link,
+nav.theme-dark a#btn-cta:visited { border-color: var(--trans-000) }
+nav.theme-dark a#btn-cta:focus,
+nav.theme-dark a#btn-cta:hover,
+nav.theme-dark a#btn-cta:active { border-color: var(--trans-000) }
+nav.theme-dark a#btn-cta:focus,
+nav.theme-dark a#btn-cta:hover,
+nav.theme-dark a#btn-cta:active { background-color: var(--purple-900) }
+nav.theme-dark a#btn-cta:link,
+nav.theme-dark a#btn-cta:visited { color: var(--purple-900) }
+nav.theme-dark a#btn-cta:focus,
+nav.theme-dark a#btn-cta:hover,
+nav.theme-dark a#btn-cta:active { color: var(--purple-500) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--trend-600) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--red-600) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: #280137 }
+
+.logo { width: 85px}
+
+.section-selector-1 { background-color: #280137; }
+.section-selector-1 .col-1 h2 { color: var(--purple-500) }
+.section-selector-1 .col-3 h3 { color: var(--purple-500);}
+.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] p { color: var(--white-000) }
+.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] li { color: var(--white-000) }
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { color: #280137 }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { color: var(--purple-500) }
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { background-color: var(--purple-500) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { background-color: var(--purple-900) }
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { border-color: var(--purple-500) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { border-color: var(--purple-900) }
+
+.see-more-btn { margin: 80px; display: flex; justify-content: center; }
+
+header.theme-light .container-btn a.btn:nth-child(1):link,
+header.theme-light .container-btn a.btn:nth-child(1):visited { background-color: var(--purple-700) }
+
+header.theme-light .container-btn a.btn:nth-child(1):link,
+header.theme-light .container-btn a.btn:nth-child(1):visited { border-color: var(--purple-700) }
+
+header.theme-light h1 { color: var(--purple-900) }
+header.theme-light { background-color: var(--purple-400) }
+header.theme-light h2 { color: var(--gray-900) }
+header.theme-light .container-btn a.btn:nth-child(1):focus,
+header.theme-light .container-btn a.btn:nth-child(1):hover,
+header.theme-light .container-btn a.btn:nth-child(1):active { border-color: var(--purple-300) }
+
+header.theme-light .container-btn a.btn:nth-child(1):focus,
+header.theme-light .container-btn a.btn:nth-child(1):hover,
+header.theme-light .container-btn a.btn:nth-child(1):active { background-color: var(--purple-300) }
+
+header.theme-light .container-btn a.btn:nth-child(1):link,
+header.theme-light .container-btn a.btn:nth-child(1):visited { color: #280137 }
+
+.contact-image { height: 390px;}
